@@ -6,7 +6,7 @@ class ClientTableSeeder extends Seeder {
     {
         DB::table('clients')->delete();
 
-        \Customer::create([
+        \Client::create([
         		'name' => 'Some Co Ltd',
         		'address_1' => '1 Long Street',
         		'address_2' => null,
